@@ -1,6 +1,11 @@
 #include <iostream>
 
-// Write your function here
+void printString(std::string word, int number){
+   while (number!=0){
+     std::cout << word <<'\n';
+     number--;
+   }
+ }
 
 int main() {
     printString("Hello", 5);
